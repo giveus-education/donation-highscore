@@ -11,7 +11,7 @@ const handleClick = async (event: any) => {
     const data = {amount: 2000};
 
     // Call your backend to create the Checkout Session
-    const response = await fetch('https://gx5jzd1ua2.execute-api.us-east-1.amazonaws.com/dev/checkoutsession', { method: 'POST', body: JSON.stringify(data) });
+    const response = await fetch('https://ut4nf0wfai.execute-api.eu-central-1.amazonaws.com/dev/checkoutsession', { method: 'POST', body: JSON.stringify(data) });
 
     const session = await response.json();
 
