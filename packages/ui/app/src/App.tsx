@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Elements} from "@stripe/react-stripe-js";
 import  {loadStripe} from "@stripe/stripe-js";
 import {CardElement, useStripe, useElements} from '@stripe/react-stripe-js';
 
-const stripePromise = loadStripe('pk_test_JJ1eMdKN0Hp4UFJ6kWXWO4ix00jtXzq5XG');
+const stripePromise = loadStripe('pk_test_51HT23CJ2Y4J7zMet8sP3OiAuslVEJF1UkZk0HKOyiSDG7411mNGz5T7MBF6PJsHtElF8fsA99rzD8KhwgYYgKoRk00DdCr5OO4');
 
 
 
