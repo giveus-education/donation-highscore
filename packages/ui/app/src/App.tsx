@@ -30,9 +30,11 @@ const handleClick = async (event: any) => {
 function App() {
   return (
     <>
-        <button role="link" onClick={handleClick}>
-            Donate
-        </button>
+        <div className="p-3 align-content-center">
+            <button type="button" className="btn btn-dark btn-lg btn-block" role="link" onClick={handleClick}>
+                Donate
+            </button>
+        </div>
     </>
   );
 }
