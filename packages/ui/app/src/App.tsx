@@ -31,8 +31,9 @@ function App() {
   return (
     <>
         <div className="p-3 align-content-center">
-            <button type="button" className="btn btn-dark btn-lg btn-block" role="link" onClick={handleClick}>
-                Donate
+            <button type="button" className="btn btn-dark btn-lg btn-block hvr-icon-rotate" role="link" onClick={handleClick}>
+                Donate some education
+                <i className="p-3 fas fa-pencil-alt fa-fw hvr-icon"> </i>
             </button>
         </div>
     </>
